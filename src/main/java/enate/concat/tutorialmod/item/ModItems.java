@@ -20,7 +20,7 @@ public class ModItems {
     }
 
     public static void registerModItems() {
-        TutorialMod.LOGGER.info("Registering mod items for" + TutorialMod.MOD_ID);
+        TutorialMod.LOGGER.info("Registering mod items for " + TutorialMod.MOD_ID);
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(fabricItemGroupEntries -> {
             fabricItemGroupEntries.add(SAPPHIRE);
