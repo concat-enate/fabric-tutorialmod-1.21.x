@@ -10,8 +10,8 @@ import net.minecraft.util.Identifier;
 
 public class ModItems {
 
-    public static final Item PINK_GARNET = registerItem("pink_garnet", new Item(new Item.Settings()));
-    public static final Item RAW_PINK_GARNET = registerItem("raw_pink_garnet", new Item(new Item.Settings()));
+    public static final Item SAPPHIRE = registerItem("sapphire", new Item(new Item.Settings()));
+    public static final Item RAW_SAPPHIRE = registerItem("raw_sapphire", new Item(new Item.Settings()));
 
 
 
@@ -23,8 +23,8 @@ public class ModItems {
         TutorialMod.LOGGER.info("Registering mod items for" + TutorialMod.MOD_ID);
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(fabricItemGroupEntries -> {
-            fabricItemGroupEntries.add(PINK_GARNET);
-            fabricItemGroupEntries.add(RAW_PINK_GARNET);
+            fabricItemGroupEntries.add(SAPPHIRE);
+            fabricItemGroupEntries.add(RAW_SAPPHIRE);
         });
     }
 }
