@@ -1,6 +1,7 @@
 package enate.concat.tutorialmod;
 
 import enate.concat.tutorialmod.block.ModBlocks;
+import enate.concat.tutorialmod.item.ModItemGroups;
 import enate.concat.tutorialmod.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -21,6 +22,7 @@ public class TutorialMod implements ModInitializer {
 		// However, some things (like resources) may still be uninitialized.
 		// Proceed with mild caution.
 
+		ModItemGroups.registerItemGroups();
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
 	}

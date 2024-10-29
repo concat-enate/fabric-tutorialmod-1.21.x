@@ -3,5 +3,8 @@
   "item.tutorialmod.raw_sapphire": "Raw Sapphire",
 
   "block.tutorialmod.sapphire_block": "Block of Sapphire",
-  "block.tutorialmod.raw_sapphire_block": "Block of Raw Sapphire"
+  "block.tutorialmod.raw_sapphire_block": "Block of Raw Sapphire",
+
+  "itemgroup.tutorialmod.sapphire_items": "Sapphire Items",
+  "itemgroup.tutorialmod.sapphire_blocks": "Sapphire Blocks"
 }
