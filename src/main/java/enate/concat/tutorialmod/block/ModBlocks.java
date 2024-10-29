@@ -19,6 +19,11 @@ public class ModBlocks {
                     .requiresTool()
                     .sounds(BlockSoundGroup.AMETHYST_BLOCK)));
 
+    public static final Block RAW_SAPPHIRE_BLOCK = registerBlock("raw_sapphire_block", new Block(AbstractBlock.Settings.create()
+            .strength(3f)
+            .requiresTool()
+            .sounds(BlockSoundGroup.DEEPSLATE)));
+
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
         return Registry.register(Registries.BLOCK, Identifier.of(TutorialMod.MOD_ID, name), block);
@@ -33,6 +38,7 @@ public class ModBlocks {
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(fabricItemGroupEntries -> {
             fabricItemGroupEntries.add(ModBlocks.SAPPHIRE_BLOCK);
+            fabricItemGroupEntries.add(ModBlocks.RAW_SAPPHIRE_BLOCK);
         });
     }
 }
