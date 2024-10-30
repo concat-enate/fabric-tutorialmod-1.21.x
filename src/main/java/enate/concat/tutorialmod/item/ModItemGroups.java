@@ -27,6 +27,9 @@ public class ModItemGroups {
                     .entries((displayContext, entries) -> {
                         entries.add(ModBlocks.SAPPHIRE_BLOCK);
                         entries.add(ModBlocks.RAW_SAPPHIRE_BLOCK);
+
+                        entries.add(ModBlocks.SAPPHIRE_ORE);
+                        entries.add(ModBlocks.DEEPSLATE_SAPPHIRE_ORE);
                     }).build());
 
     public static void registerItemGroups() {
