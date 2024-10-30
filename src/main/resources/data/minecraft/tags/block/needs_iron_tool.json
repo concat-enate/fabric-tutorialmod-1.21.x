@@ -1,5 +1,5 @@
 {
-  "replace": "false",
+  "replace": false,
   "values": [
     "tutorialmod:sapphire_block",
     "tutorialmod:raw_sapphire_block",
